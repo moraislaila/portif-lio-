@@ -1,0 +1,11 @@
+h1{ 
+    font-family: Arial, sans-serif; /* Muda a fonte para Arial */
+    font-size: 36px;             /* Define o tamanho da fonte */
+    color: rgb(9, 75, 160);                 /* Define a cor do texto */
+    text-align: center;          /* Centraliza o texto */
+  }
+  h2 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    color: #555;
+  }

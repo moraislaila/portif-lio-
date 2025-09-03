@@ -75,7 +75,7 @@ header {
 }
 
 .button:hover {
- background-color: #fc5c11;
+  background-color: #fc5c11;
   color: #fff;
   transition: 0.5s;
 }
@@ -108,13 +108,13 @@ header {
   margin-top: 10px;
 }
 
-.redes-sociais a{
+.redes-sociais a {
   color: #fc5c11;
   padding: 10px;
   margin-top: 5px;
 }
 
-.bnt{
+.bnt {
   margin-top: 10px;
   color: #fc5c11;
   background: transparent;
@@ -128,6 +128,33 @@ header {
 
 .bnt:hover {
   background-color: #fc5c11;
-   color: #fff;
-   transition: 0.5s;
- }
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center; /* espaço entre texto e imagem */
+    align-items: center;    
+    flex-direction: row-reverse;        /* alinha verticalmente */
+    gap: 100px;                      /* espaço entre os dois */
+    margin-top: 50px;
+}
+
+/* Texto */
+.perfil-texto {
+    max-width: 60%; /* limita largura do texto */
+}
+
+/* Foto com glow */
+.foto-perfil img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;       /* deixa redonda */
+    object-fit: cover;        /* corta certinho no círculo */
+    border: 4px solid #ff4500; 
+    box-shadow: 0 0 25px #ff4500,
+                0 0 50px #ff6347,
+                0 0 75px #ff7f50; /* efeito glow laranja */
+}
+
