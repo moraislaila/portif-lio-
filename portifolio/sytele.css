@@ -53,4 +53,8 @@ header{
   color: #2ecc71;
   border-radius: 50px ;
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
 }
