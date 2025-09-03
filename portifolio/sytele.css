@@ -15,7 +15,7 @@ body {
 
 .background {
   background: linear-gradient(rgba(0, 0, 0.5));
-  background-image: url(FREE\ 17+\ Simple\ Plain\ Backgrounds\ in\ PSD.jpg);
+  background-image: url(Fundo\ preto\ liso\ Foto\ stock\ gratuita\ -\ Public\ Domain\ Pictures.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -45,7 +45,7 @@ header {
 }
 
 .cabeçalho-link a :hover {
-  color: #2ecc71;
+  color: #fc5c11;
   transition: 0.3s all;
 }
 
@@ -53,8 +53,8 @@ header {
   min-height: 40px;
   width: 40px;
   background: transparent;
-  border: 1px solid #2ecc71;
-  color: #2ecc71;
+  border: 1px solid #fc5c11;
+  color: #fc5c11;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
@@ -64,9 +64,9 @@ header {
 }
 
 .button {
-  color: #2ecc71;
+  color: #fc5c11;
   background: transparent;
-  border: solid 1px #2ecc71;
+  border: solid 1px #fc5c11;
   padding: 5px;
   border-radius: 15px;
   font-size: 12px;
@@ -75,7 +75,7 @@ header {
 }
 
 .button:hover {
-  background-color: #2ecc71;
+ background-color: #fc5c11;
   color: #fff;
   transition: 0.5s;
 }
@@ -97,7 +97,8 @@ header {
 }
 
 .text span {
-  color: #2ecc71;
+  color: #fc5c11;
+
 }
 
 .text p {
@@ -108,8 +109,25 @@ header {
 }
 
 .redes-sociais a{
-  color: #2ecc71;
+  color: #fc5c11;
   padding: 10px;
   margin-top: 5px;
 }
 
+.bnt{
+  margin-top: 10px;
+  color: #fc5c11;
+  background: transparent;
+  border: solid 1px #fc5c11;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.bnt:hover {
+  background-color: #fc5c11;
+   color: #fff;
+   transition: 0.5s;
+ }
