@@ -58,3 +58,46 @@ header{
   cursor: pointer;
   font-size: 13px;
 }
+
+.container-text{
+  padding: 150px;
+
+}
+
+.text h3{
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 30px;
+}
+.text span{
+  color: #2ecc71;
+}
+
+.text p{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.button{
+  color: #2ecc71;
+  background: transparent;
+  border: solid 1px #2ecc71;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #2ecc71;
+  color: #fff;
+  transition: 0.5s;
+}
